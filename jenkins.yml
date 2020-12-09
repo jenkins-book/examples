@@ -1,0 +1,8 @@
+jenkins:
+  systemMessage: "Jenkins configured automatically by Jenkins Configuration as Code Plugin\n\n"
+  numExecutors: 4
+  scmCheckoutRetryCount: 20
+  mode: NORMAL
+  slaveAgentPort: 50000
+    agentProtocols:
+      - "jnlp2"
